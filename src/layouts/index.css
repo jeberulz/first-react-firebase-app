@@ -7,6 +7,7 @@ body {
   font-size: 30px;
   -webkit-font-smoothing:antialiased;
   line-height: 1.3;
+  background-color: black;
 
 }
 
@@ -53,6 +54,29 @@ a {
   border: 1px solid rgba( 255, 255, 255, 0.25);
   border-radius: 20px;
 }
+
+.Hero input {
+  background-color: #fff;
+    border: none;
+    border-radius: 37px;
+    font-size: 18px;
+    height: 35px;
+    min-width: 300px;
+    padding: 12px 17px;
+}
+
+.Hero button {
+  background: #0260ee;
+  border-radius: 37px;
+  color: #fff;
+  font-size: 18px;
+  height: 60px;
+  line-height: 28px;
+  margin-left: -55px;
+  width: 186px;
+
+}
+
 
 @media (max-width: 640px) {
   .HeroGroup {

@@ -3,12 +3,18 @@ import Link from 'gatsby-link'
 
 const IndexPage = () => (
 <div>
-<header/>
+
   <div className="Hero">
     <div className="HeroGroup">
       <h1>My first firesbase + react app</h1>
-      <p>Let's explore the best way to use this tools</p>
-      <Link to="/page-2/">WATCH THE NOW</Link>
+      <p>Let's explore the best way to use these tools</p>
+      <div className="form">
+      
+      <input type="email" placeholder ="Enter your email"/>
+      <button>Request Invite</button>
+    
+      </div>
+      
     </div>
   </div>
 </div>
